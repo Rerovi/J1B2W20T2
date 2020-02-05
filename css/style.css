@@ -1,0 +1,260 @@
+html {
+    width: 1185px;
+}
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+.txt {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    border: 2px solid black;
+    background-color: darkgrey;
+    max-width: 960px;
+    height: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 300px 360px 300px;
+    grid-template-rows: 150px 110px 200px 200px 200px 200px;
+}
+.block1 {
+    margin-top: 5px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+#code {
+    width: 360px;
+    height: 150px;
+}
+.l1 {
+    margin-left: 170px;
+}
+li:hover {
+    background-color: orange;
+}
+li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid black;
+    display: inline;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+a {
+    text-decoration: none;
+    height: 78px;
+}
+ul {
+    background-color: red;
+    padding: 20px;
+    border: 1px solid black;
+    grid-row: 2/3;
+    grid-column: 1/4;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#html {
+    width: 420px;
+    height: 200px;
+}
+#htmlDiv{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 420px;
+
+}
+#block3Page1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 240px;
+    width: 420px;
+}
+#css {
+    width: 420px;
+    height: 200px;
+}
+#Page1Txt1 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-left: 20px;
+    width: 420px;
+    text-align: left;
+}
+#Page1Txt2 {
+    text-align: left;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-left: 238px;
+    width: 420px;
+}
+#block1Page2 {
+    grid-column: 1/2;
+    grid-row: 3/6;
+}
+#verticalCode{
+    border: 1px solid black;
+    width: 300px;
+    height: 600px;
+}
+#page2Txt1 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-left: 5px;
+}
+#page2Txt2 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-left: 5px;
+}
+#page2Txt3 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    margin-left: 5px;
+}
+#block2Page2 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+#horizontal1 {
+    width: 300px;
+    height: 200px;
+}
+#block3Page2 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+#horizontal2 {
+    width: 300px;
+    height: 200px;
+}
+#block4Page2 {
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+#horizontal3 {
+    width: 300px;
+    height: 200px;
+}
+#block2Page3 {
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+#horizontal1Page3 {
+    height: 100px;
+    width: 960px;
+    border: 1px solid black;
+}
+.headTxt1 {
+    background-color: crimson;
+}
+#page3Txt1 {
+    border: 1px solid black;
+    background-color: red;
+    grid-row: 4/5;
+    grid-column: 1/2;
+    width: 420px;
+}
+#page3Txt2 {
+    border: 1px solid black;
+    background-color: red;
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-left: 240px;
+    width: 420px;
+}
+#block3Page3 {
+    grid-row: 5/6;
+    grid-column: 1/4;
+}
+#horizontal2Page3 {
+    height: 100px;
+    width: 960px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+#block2Page4 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#horizontal1Page4 {
+    width: 300px;
+    height: 80px;
+    border: 1px solid black;
+}
+#block3Page4 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+#horizontal2Page4 {
+    width: 360px;
+    height: 80px;
+    border: 1px solid black;
+}
+#block4Page4 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+#horizontal3Page4 {
+    width: 300px;
+    height: 80px;
+    border: 1px solid black;
+}
+#page4Txt1 {
+    grid-column: 1/4;
+    grid-row: 4/5;
+    text-align: center;
+}
+#block5Page4 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+#horizontal5Page4 {
+    height: 380px;
+    width: 540px;
+}
+#block6Page4 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+
+}
+#horizontal6Page4 {
+    height: 190px;
+    width: 120px;
+    margin-left: 240px;
+}
+#block7Page4 {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+#horizontal7Page4 {
+    height: 190px;
+    width: 120px;
+    margin-left: 240px;
+}
+#block8Page4 {
+    grid-column: 3/4;
+    grid-row: 5/7;
+}
+#horizontal8Page4 {
+    height: 380px;
+    width: 300px;
+}
+.copyright {
+    border: 1px solid black;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    background-image: linear-gradient(red, yellow);
+    grid-column: 1/4;
+    grid-row: 7/8;
+}
